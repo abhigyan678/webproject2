@@ -4,10 +4,10 @@
   Moengage = moe({
   app_id:"1SCFO3OHU33EZUMDATWHJO36",
   debug_logs: 1,
-    swPath: "./serviceworker.js"
+    swPath: "/webproject2/serviceworker.js"
   });
 
-  document.getElementById("log").onclick = function jsfunc(){
+    document.getElementById("log").onclick = function jsfunc(){
     Moengage.add_unique_user_id(document.getElementById("Uname").value); 
     
 
