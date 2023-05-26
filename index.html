@@ -19,7 +19,7 @@
   });
 
     document.getElementById("log").onclick = function jsfunc(){
-    Moengage.add_unique_user_id(document.getElementById("Uname").value); 
+        Moengage.add_unique_user_id(document.getElementById("Uname").value ? document.getElementById("Uname").value : ""); 
     
 
     
