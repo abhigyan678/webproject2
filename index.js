@@ -3,7 +3,8 @@
 
   Moengage = moe({
   app_id:"1SCFO3OHU33EZUMDATWHJO36",
-  debug_logs: 1
+  debug_logs: 1,
+    swPath: "./serviceworker.js"
   });
 
   document.getElementById("log").onclick = function jsfunc(){
